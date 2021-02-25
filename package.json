@@ -1,0 +1,22 @@
+{
+  "name": "tiny-clock",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-xo-space": "^0.27.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.0.13"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "@hyperapp/time": "^0.2.0",
+    "hyperapp": "^2.0.12",
+    "normalize.css": "^8.0.1"
+  }
+}
