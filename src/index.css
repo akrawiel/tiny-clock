@@ -7,14 +7,19 @@
   color: #F0F2A6;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 main {
   background: linear-gradient(to bottom right, #521426, #310C17);
   font-family: "Prosto One", sans-serif;
   grid-template-rows: 2rem 1fr 2rem;
   display: grid;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .description-row {
