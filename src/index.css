@@ -41,6 +41,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
 }
 
 .digit-row {
@@ -48,19 +49,17 @@ main {
   grid-column-gap: 0.5rem;
   grid-template-columns: repeat(8, auto);
   height: 2rem;
-  position: relative;
-  z-index: 2;
 }
 
 .digit-row-highlighter {
   background-color: rgba(0, 0, 0, 0.15);
-  bottom: 0;
   height: 2rem;
   left: 0;
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 
 .digit-row-spacer {
