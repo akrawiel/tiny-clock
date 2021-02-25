@@ -1,10 +1,18 @@
 module.exports = {
   devOptions: {
     port: 8000,
-    open: 'none'
+    open: "none",
   },
   mount: {
-    public: '/',
-    src: '/dist'
-  }
+    public: "/",
+    src: "/dist",
+  },
+  buildOptions: {
+    out: "dist",
+  },
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: "es2018",
+  },
 };
